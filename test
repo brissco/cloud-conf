@@ -1,0 +1,22 @@
+#spring.datasource.url=jdbc:mariadb://localhost:3306/gestion_educatif
+#spring.datasource.username=brice
+#spring.datasource.password=12345
+#spring.jpa.database-platform=org.hibernate.dialect.MariaDBDialect
+#server.port=8082
+#spring.jpa.hibernate.ddl-auto=create
+
+
+
+
+# URL du serveur Eureka
+#eureka.client.service-url.defaultZone=http://eurekaService:8761/eureka
+#yParam=8474
+#email= ngatchabrice03@gmail.com
+#server.port=8081
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+ #eureka.client.serviceUrl.defaultZone=http://localhost:8781/eureka/
+
+spring.cloud.config.uri=http://localhost:8888
+
+
+#eureka.client.serviceUrl.defaultZone=http://localhost:${server.port}/eureka/
